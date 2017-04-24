@@ -1,10 +1,6 @@
 <?php
 
 /**
- * Created by PhpStorm.
- * User: makcu
- * Date: 24.04.2017
- * Time: 20:34
  * Вспомогательный класс для построения клиента
  * Можно создать клиента вручную:
  * $client = new Client($baseUrl, $version);
