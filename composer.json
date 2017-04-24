@@ -1,0 +1,12 @@
+{
+    "name": "makcu/rest_client",
+    "authors": [
+        {
+            "name": "makcumka2000",
+            "email": "makcumka2000@gmail.com"
+        }
+    ],
+    "require": {
+        "nategood/httpful": "*"
+    }
+}
