@@ -14,6 +14,29 @@ interface Client
     public function get($url);
 
     /**
+     * Send POST request
+     * @param $url string
+     * @param array $data
+     * @return Response
+     */
+    public function post($url, array $data);
+
+    /**
+     * Send PUT request
+     * @param $url string
+     * @param array $data
+     * @return Response
+     */
+    public function put($url, array $data);
+
+    /**
+     * Send DELETE request
+     * @param $url
+     * @return Response
+     */
+    public function delete($url);
+
+    /**
      * Задает новый токен
      * @param $token string
      * @return void
